@@ -309,7 +309,7 @@ font-size: 0.75rem;
    right:2rem;
    z-index: 1000;
    fill: var(--white);
-   background-image: url('/blob/main/images/svgs/bx-menu.svg');
+   background-image: url('https://github.com/prnvjn/alambre-cables/blob/main/images/svgs/bx-menu.svg');
    fill: white;
   }
 
