@@ -309,7 +309,7 @@ font-size: 0.75rem;
    right:2rem;
    z-index: 1000;
    fill: var(--white);
-   background-image: url('/images/svgs/icon-hamburger.svg');
+   background-image: url('./images/svgs/bx-menu.svg');
    fill: white;
   }
 
