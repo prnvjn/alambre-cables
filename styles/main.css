@@ -268,8 +268,9 @@ nav>ul{
 
 
 }
-nav>ul>li{
+ul>li{
 list-style: none;
+
 }
 nav>ul>li>a{
 padding: 1rem 0.4rem;
@@ -295,6 +296,7 @@ font-size: 0.75rem;
     background-color: var(--little-boy-blue);
     padding: inherit;
     transform: translateX(100%);
+    transition: transform 0.3s ease;
     
   }
   .navigation-toggle{
@@ -311,6 +313,12 @@ font-size: 0.75rem;
    fill: var(--white);
    background-image: url(../images/svgs/icon-hamburger.svg);
    fill: white;
+  }
+  .active{
+    transform: translateX(0%);
+  }
+  .close{
+    background-image: url(../images/svgs/icon-close.svg);
   }
 
 }
@@ -333,3 +341,32 @@ background-color: green;
 .s3{
   background-color: orange;
   }
+footer{
+  background-color: var(--independence);
+ 
+  
+  
+}
+
+footer p{
+  font-size: 0.75rem;
+  color: var(--light-gray);
+}
+.footer-info,.footer-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  text-align: center;
+}
+.footer-links,.social-links{
+  display: flex;
+  gap:1rem;
+  padding: 0%;
+}
+.footer-links>li>a{
+  
+ color: var(--light-gray);
+ text-decoration: none;
+ font-size: 0.5rem;
+}
