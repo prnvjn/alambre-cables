@@ -1,0 +1,46 @@
+@import url("../styles/main.css");
+
+.hero{
+    position: relative;
+    
+}
+
+.hero-banner{
+display: block;
+ height: 80vh;
+ object-fit: cover;
+ object-position: center;
+}
+.hero-title{
+    position: absolute;
+    top:2rem;
+    right: 0.5rem;
+    left:1rem;
+    font-size: 5rem;
+    color:var(--cultured);
+    line-height: 1;
+    
+}
+.hero-text{
+    background-color: var(--cultured);
+
+    padding-top:4.5rem;
+    padding-bottom:4.5rem;
+
+}
+.hero-video{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 600;
+    padding: 2rem;
+    
+}
+.playicon{
+   fill: var(--independence);
+   stroke-width: 5;
+   width:3.5rem;
+   height: 3.5rem;
+   
+}
